@@ -1,0 +1,41 @@
+## Action goal
+
+# Motion to execute
+string motion
+# Straight line
+float64 m
+float64 q 
+# AprilTag ID to pick-place
+int32 apriltag_id
+# AprilTags objects to avoid
+int32[] apriltag_ids
+geometry_msgs/PoseStamped[] apriltag_pose_stamped
+std_msgs/ColorRGBA[] apriltag_colors
+# Collision object to pick-place
+string collision_object_id
+# Collision objects to avoid
+string[] collision_object_ids
+# Place location
+geometry_msgs/PoseStamped place_location
+
+---
+
+## Action result
+
+# Complete flag
+bool is_completed
+# Pick-place status
+string pick_place_state
+# AprilTag collision object
+string apriltag_id 
+# Table collision objects
+string[] table_collision_object_ids
+# Collision objects to pick-place
+string[] collision_object_ids
+
+---
+
+## Action feedback
+
+# Pick-place status
+string pick_place_state

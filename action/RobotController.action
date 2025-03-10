@@ -1,0 +1,33 @@
+## Action goal
+
+# Motion to execute
+string motion
+# Waypoint to reach
+geometry_msgs/PoseStamped waypoint
+# Torso: torso_lift_joint
+float64 torso_lift_joint
+# Head: head_1_joint, head_2_joint
+float64[] head_joints
+# Gripper: gripper_left_finger_joint, gripper_right_finger_joint
+float64[] gripper_joints
+# Arm: arm_1_joint, arm_2_joint, arm_3_joint, arm_4_joint, arm_5_joint, arm_6_joint, arm_7_joint
+float64[] arm_joints
+# Orientation angle
+float64 angle
+# Displacement
+float64 distance
+
+---
+
+## Action result
+
+# Robot status
+string robot_state
+# Waypoint reached
+geometry_msgs/PoseStamped waypoint
+
+---
+
+## Action feedback
+
+# Not necessary

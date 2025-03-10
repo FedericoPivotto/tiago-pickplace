@@ -1,0 +1,45 @@
+tables:
+
+  - table:
+      id: 1
+    type:
+      type: "table"
+      shape: "box"
+    dimension:
+      x: 0.913
+      y: 0.913
+      z: 0.76
+    header:
+      seq: 0
+      frame_id: "map"
+    point:
+      x: 7.815897
+      y: -1.896304
+      z: 0.38
+    quaternion:
+      x: -0.000116
+      y: -0.000142
+      z: 0.000298
+      w: 0.999999
+
+  - table:
+      id: 2
+    type:
+      type: "table"
+      shape: "box"
+    dimension:
+      x: 0.913
+      y: 0.913
+      z: 0.76
+    header:
+      seq: 1
+      frame_id: "map"
+    point: 
+      x: 7.844335
+      y: -3.029794
+      z: 0.38
+    quaternion:
+      x: -0.000116
+      y: -0.000142
+      z: 0.000298
+      w: 0.999999

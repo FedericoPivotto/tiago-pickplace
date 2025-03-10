@@ -1,0 +1,27 @@
+waypoints:
+
+  - header:
+      seq: 0
+      frame_id: "map"
+    point:
+      x: 8.75
+      y: 0.0
+      z: 0.0
+    quaternion:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+
+  - header:
+      seq: 1
+      frame_id: "map"
+    point: 
+      x: 8.75
+      y: -1.0
+      z: 0.0
+    quaternion:
+      x: 0.0
+      y: 0.0
+      z: -0.7071067812
+      w: 0.7071067812

@@ -1,0 +1,172 @@
+apriltags:
+
+  - tag:
+      id: 1
+    type:
+      type: "hexagon"
+      shape: "cylinder"
+      model: "Hexagon"
+    dimension:
+      x: 0.1
+      y: 0.025
+      z: 0.0
+    point:
+      x: 0.0
+      y: 0.0
+      z: 0.048
+    rpy:
+      r: -0.000006
+      p: 0.0
+      y: 0.0
+
+  - tag:
+      id: 2
+    type:
+      type: "hexagon"
+      shape: "cylinder"
+      model: "Hexagon_2"
+    dimension:
+      x: 0.1
+      y: 0.025
+      z: 0.0
+    point:
+      x: 0.0
+      y: 0.0
+      z: 0.048
+    rpy:
+      r: -0.000006
+      p: 0.0
+      y: 0.0
+
+  - tag:
+      id: 3
+    type:
+      type: "hexagon"
+      shape: "cylinder"
+      model: "Hexagon_3"
+    dimension:
+      x: 0.1
+      y: 0.025
+      z: 0.0
+    point:
+      x: 0.0
+      y: 0.0
+      z: 0.048
+    rpy:
+      r: -0.000006
+      p: 0.0
+      y: 0.0
+
+  - tag:
+      id: 4
+    type:
+      type: "cube"
+      shape: "box"
+      model: "cube"
+    dimension:
+      x: 0.05
+      y: 0.05
+      z: 0.05
+    point:
+      x: 0.0
+      y: 0.0
+      z: 0.025
+    rpy:
+      r: 0.000002
+      p: -0.000002
+      y: -0.000012
+
+  - tag:
+      id: 5
+    type:
+      type: "cube"
+      shape: "box"
+      model: "cube_5"
+    dimension:
+      x: 0.05
+      y: 0.05
+      z: 0.05
+    point:
+      x: 0.0
+      y: 0.0
+      z: 0.025
+    rpy:
+      r: 0.000002
+      p: -0.000002
+      y: -0.000012
+
+  - tag:
+      id: 6
+    type:
+      type: "cube"
+      shape: "box"
+      model: "cube_6"
+    dimension:
+      x: 0.05
+      y: 0.05
+      z: 0.05
+    point:
+      x: 0.0
+      y: 0.0
+      z: 0.025
+    rpy:
+      r: 0.000002
+      p: -0.000002
+      y: -0.000012
+
+  - tag:
+      id: 7
+    type:
+      type: "triangle"
+      shape: "box"
+      model: "Triangle"
+    dimension:
+      x: 0.05
+      y: 0.07
+      z: 0.035
+    point:
+      x: 0.0
+      y: 0.015
+      z: 0.009
+    rpy:
+      r: 0.784999
+      p: 0.0
+      y: 0.0
+
+  - tag:
+      id: 8
+    type:
+      type: "triangle"
+      shape: "box"
+      model: "Triangle_8"
+    dimension:
+      x: 0.05
+      y: 0.07
+      z: 0.035
+    point:
+      x: 0.0
+      y: 0.015
+      z: 0.009
+    rpy:
+      r: 0.784999
+      p: 0.0
+      y: 0.0
+
+  - tag:
+      id: 9
+    type:
+      type: "triangle"
+      shape: "box"
+      model: "Triangle_9"
+    dimension:
+      x: 0.05
+      y: 0.07
+      z: 0.035
+    point:
+      x: 0.0
+      y: 0.015
+      z: 0.009
+    rpy:
+      r: 0.784999
+      p: 0.0
+      y: 0.0

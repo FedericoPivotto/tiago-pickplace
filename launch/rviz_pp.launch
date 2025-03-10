@@ -1,0 +1,6 @@
+<launch>
+
+    <!-- RViz with config file for the robot environment -->
+    <node pkg="rviz" type="rviz" name="rviz_pp" args="-d $(find ir2425_group_15)/rviz/rviz_pp.rviz" />
+
+</launch>
